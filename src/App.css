@@ -1,0 +1,42 @@
+.App{
+  display:flex;
+  background-color: black;
+  height:100vh;
+}
+h1{
+  
+  position: absolute;
+left: 0%;
+right: 0%;
+top: -0.37%;
+bottom: 0%;
+
+}
+
+    
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu-item.Name{
+  position: absolute;
+left: 29.83%;
+right: 50.97%;
+top: 12.63%;
+bottom: 84.35%;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: lightgray;
+}
+
+.menu-item.selected {
+  background-color: gray;
+  color: white;
+}
